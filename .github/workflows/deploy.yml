@@ -13,6 +13,6 @@ jobs:
       - name: Deploy to production
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service-id: ${{ secrets.ID }}
+          service-id: ${{ secrets.JAJA }}
           api-key: ${{ secrets.XD }}
           wait-for-success: true
